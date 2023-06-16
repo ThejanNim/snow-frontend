@@ -5,8 +5,8 @@ export default function ProjectsLayout({
 }) {
   return (
     <div className="flex h-full fixed">
-      <div className="w-60 bg-[#FAFBFC] border-r">
-        <h1>Sidebar</h1>
+      <div className="bg-white w-72">
+        <h1 className="text-black/40">Sidebar</h1>
       </div>
       <section>{children}</section>
     </div>
